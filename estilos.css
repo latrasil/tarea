@@ -11,12 +11,41 @@ body{
     align-items: center;
     min-height: 100vh;
     background: linear-gradient(45deg, yellow, #ff5acd);
+
 }
 .card{
     position: relative;
     width: 350px;
     height: 190px;
     margin: auto;
-    background-color:aquamarine;
+    background-color:#fff;
     border-radius: 20px;
 }
+.circle{
+    background-color:rgb(7, 2, 2) ;
+    border-radius: 500px;
+    width: 70px;
+    height: 70px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: 105px;
+    margin-top: -50px;
+    padding: 10px;
+    position: absolute;
+    border-radius:50% ;
+    border: 5px solid white;
+}
+.imagen{
+border-radius: 50%;
+}
+.imagen{
+    height: 90px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    margin-left: -9px;
+    margin-right: 200px;
+    margin-top: -10px;
+}
+
